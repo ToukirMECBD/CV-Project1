@@ -219,3 +219,114 @@
     </div>
 </body>
 </html>
+
+*{  
+    margin:0;
+    padding:0;
+   }
+   
+   body{
+       background-color:#F3CF3E;
+       font-family:'Lato', sans-serif;
+   }
+   .Container{
+       max-width: 1000px;
+       background-color:#E4F9F5;
+       margin: 0 auto;
+       padding: 20px;
+   }
+   .profile-image{
+        width: 100px;
+        height: 120px;
+        border: 3px solid white;
+        border-radius:50%;
+        float: left;
+
+   }
+   .header-bio{
+      float: left;
+      padding: 30px;
+
+   }
+   h1,h2,h3,h4,h5,h6{
+       color: #15A083;
+   }
+   p{
+    color: #15A083;
+    font-size:90%;
+   }
+   .header-contact{
+        float: right;
+        padding: 20px;
+        font-size:100%;
+   }
+   .header-contact a{
+    text-decoration: none;
+    font-weight:bold;
+    color:teal;
+
+}
+.header-contact a:hover{
+    text-decoration: underline;
+    color:tomato;
+
+}
+.div-clear{
+    clear:both;
+}
+hr{
+    border:3px solid black;
+    width: 100%;
+    margin:20px auto; 
+    border-bottom:none;
+}
+#Objective{
+
+}
+.Content{
+    margin-bottom:30px;
+}
+.left-div{
+    width:30%;
+    float:left;
+}
+.right-div{
+    width:70%;
+    float:right;
+}
+.common-hr{
+    border-bottom:none;
+    border:1px solid black;
+    width:100%;
+    margin: 20px auto;
+}
+.Reference-contact a{
+     font-weight:bold;
+     text-decoration: none;
+     color:teal;
+}
+.Reference-contact a:hover{
+    text-decoration: underline;
+    color:tomato;
+}
+.edu-right-div-1{
+    float:left;
+    width:33%;
+}
+.edu-right-div-2{
+    float:left;
+    width:33%;
+}
+.edu-right-div-3{
+    float:right;
+    width:33%;
+  
+}
+.right-div-1{
+    float:left;
+    width:45%;
+}
+.right-div-2{
+    float:right;
+    width:45%;
+}
